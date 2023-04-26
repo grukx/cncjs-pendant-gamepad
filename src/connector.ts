@@ -252,7 +252,7 @@ export class Connector {
             baudrate: Number(this.options.baudrate),
             controllerType: this.options.controllerType
           });
-        }, 2000);
+        }, 5000);
       }
     }
   };
